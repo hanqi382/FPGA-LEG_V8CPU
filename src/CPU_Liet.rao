@@ -1,0 +1,703 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk" trig_type="0" storage_depth="1024" window_num="1" capture_amount="1024" implementation="0" trigger_pos="0" module_name="LEG" force_trigger_by_falling_edge="false" capture_init_data_enabled="false">
+        <SignalList>
+            <Signal capture_enable="true">clk</Signal>
+            <Bus capture_enable="true" name="Program/addr[7:0]">
+                <Signal>Program/addr[7]</Signal>
+                <Signal>Program/addr[6]</Signal>
+                <Signal>Program/addr[5]</Signal>
+                <Signal>Program/addr[4]</Signal>
+                <Signal>Program/addr[3]</Signal>
+                <Signal>Program/addr[2]</Signal>
+                <Signal>Program/addr[1]</Signal>
+                <Signal>Program/addr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="dir[7:0]">
+                <Signal>dir[7]</Signal>
+                <Signal>dir[6]</Signal>
+                <Signal>dir[5]</Signal>
+                <Signal>dir[4]</Signal>
+                <Signal>dir[3]</Signal>
+                <Signal>dir[2]</Signal>
+                <Signal>dir[1]</Signal>
+                <Signal>dir[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data_a[7:0]">
+                <Signal>data_a[7]</Signal>
+                <Signal>data_a[6]</Signal>
+                <Signal>data_a[5]</Signal>
+                <Signal>data_a[4]</Signal>
+                <Signal>data_a[3]</Signal>
+                <Signal>data_a[2]</Signal>
+                <Signal>data_a[1]</Signal>
+                <Signal>data_a[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="data_b[7:0]">
+                <Signal>data_b[7]</Signal>
+                <Signal>data_b[6]</Signal>
+                <Signal>data_b[5]</Signal>
+                <Signal>data_b[4]</Signal>
+                <Signal>data_b[3]</Signal>
+                <Signal>data_b[2]</Signal>
+                <Signal>data_b[1]</Signal>
+                <Signal>data_b[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="address[7:0]">
+                <Signal>address[7]</Signal>
+                <Signal>address[6]</Signal>
+                <Signal>address[5]</Signal>
+                <Signal>address[4]</Signal>
+                <Signal>address[3]</Signal>
+                <Signal>address[2]</Signal>
+                <Signal>address[1]</Signal>
+                <Signal>address[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/data_a[7:0]">
+                <Signal>REGS/data_a[7]</Signal>
+                <Signal>REGS/data_a[6]</Signal>
+                <Signal>REGS/data_a[5]</Signal>
+                <Signal>REGS/data_a[4]</Signal>
+                <Signal>REGS/data_a[3]</Signal>
+                <Signal>REGS/data_a[2]</Signal>
+                <Signal>REGS/data_a[1]</Signal>
+                <Signal>REGS/data_a[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/data_b[7:0]">
+                <Signal>REGS/data_b[7]</Signal>
+                <Signal>REGS/data_b[6]</Signal>
+                <Signal>REGS/data_b[5]</Signal>
+                <Signal>REGS/data_b[4]</Signal>
+                <Signal>REGS/data_b[3]</Signal>
+                <Signal>REGS/data_b[2]</Signal>
+                <Signal>REGS/data_b[1]</Signal>
+                <Signal>REGS/data_b[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/data_in[7:0]">
+                <Signal>REGS/data_in[7]</Signal>
+                <Signal>REGS/data_in[6]</Signal>
+                <Signal>REGS/data_in[5]</Signal>
+                <Signal>REGS/data_in[4]</Signal>
+                <Signal>REGS/data_in[3]</Signal>
+                <Signal>REGS/data_in[2]</Signal>
+                <Signal>REGS/data_in[1]</Signal>
+                <Signal>REGS/data_in[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="ALU/data_a[7:0]">
+                <Signal>ALU/data_a[7]</Signal>
+                <Signal>ALU/data_a[6]</Signal>
+                <Signal>ALU/data_a[5]</Signal>
+                <Signal>ALU/data_a[4]</Signal>
+                <Signal>ALU/data_a[3]</Signal>
+                <Signal>ALU/data_a[2]</Signal>
+                <Signal>ALU/data_a[1]</Signal>
+                <Signal>ALU/data_a[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="ALU/data_b[7:0]">
+                <Signal>ALU/data_b[7]</Signal>
+                <Signal>ALU/data_b[6]</Signal>
+                <Signal>ALU/data_b[5]</Signal>
+                <Signal>ALU/data_b[4]</Signal>
+                <Signal>ALU/data_b[3]</Signal>
+                <Signal>ALU/data_b[2]</Signal>
+                <Signal>ALU/data_b[1]</Signal>
+                <Signal>ALU/data_b[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[5][7:0]">
+                <Signal>REGS/regfile[5][7]</Signal>
+                <Signal>REGS/regfile[5][6]</Signal>
+                <Signal>REGS/regfile[5][5]</Signal>
+                <Signal>REGS/regfile[5][4]</Signal>
+                <Signal>REGS/regfile[5][3]</Signal>
+                <Signal>REGS/regfile[5][2]</Signal>
+                <Signal>REGS/regfile[5][1]</Signal>
+                <Signal>REGS/regfile[5][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[4][7:0]">
+                <Signal>REGS/regfile[4][7]</Signal>
+                <Signal>REGS/regfile[4][6]</Signal>
+                <Signal>REGS/regfile[4][5]</Signal>
+                <Signal>REGS/regfile[4][4]</Signal>
+                <Signal>REGS/regfile[4][3]</Signal>
+                <Signal>REGS/regfile[4][2]</Signal>
+                <Signal>REGS/regfile[4][1]</Signal>
+                <Signal>REGS/regfile[4][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[3][7:0]">
+                <Signal>REGS/regfile[3][7]</Signal>
+                <Signal>REGS/regfile[3][6]</Signal>
+                <Signal>REGS/regfile[3][5]</Signal>
+                <Signal>REGS/regfile[3][4]</Signal>
+                <Signal>REGS/regfile[3][3]</Signal>
+                <Signal>REGS/regfile[3][2]</Signal>
+                <Signal>REGS/regfile[3][1]</Signal>
+                <Signal>REGS/regfile[3][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[1][7:0]">
+                <Signal>REGS/regfile[1][7]</Signal>
+                <Signal>REGS/regfile[1][6]</Signal>
+                <Signal>REGS/regfile[1][5]</Signal>
+                <Signal>REGS/regfile[1][4]</Signal>
+                <Signal>REGS/regfile[1][3]</Signal>
+                <Signal>REGS/regfile[1][2]</Signal>
+                <Signal>REGS/regfile[1][1]</Signal>
+                <Signal>REGS/regfile[1][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[2][7:0]">
+                <Signal>REGS/regfile[2][7]</Signal>
+                <Signal>REGS/regfile[2][6]</Signal>
+                <Signal>REGS/regfile[2][5]</Signal>
+                <Signal>REGS/regfile[2][4]</Signal>
+                <Signal>REGS/regfile[2][3]</Signal>
+                <Signal>REGS/regfile[2][2]</Signal>
+                <Signal>REGS/regfile[2][1]</Signal>
+                <Signal>REGS/regfile[2][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/regfile[0][7:0]">
+                <Signal>REGS/regfile[0][7]</Signal>
+                <Signal>REGS/regfile[0][6]</Signal>
+                <Signal>REGS/regfile[0][5]</Signal>
+                <Signal>REGS/regfile[0][4]</Signal>
+                <Signal>REGS/regfile[0][3]</Signal>
+                <Signal>REGS/regfile[0][2]</Signal>
+                <Signal>REGS/regfile[0][1]</Signal>
+                <Signal>REGS/regfile[0][0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/out_a[7:0]">
+                <Signal>REGS/out_a[7]</Signal>
+                <Signal>REGS/out_a[6]</Signal>
+                <Signal>REGS/out_a[5]</Signal>
+                <Signal>REGS/out_a[4]</Signal>
+                <Signal>REGS/out_a[3]</Signal>
+                <Signal>REGS/out_a[2]</Signal>
+                <Signal>REGS/out_a[1]</Signal>
+                <Signal>REGS/out_a[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/out_b[7:0]">
+                <Signal>REGS/out_b[7]</Signal>
+                <Signal>REGS/out_b[6]</Signal>
+                <Signal>REGS/out_b[5]</Signal>
+                <Signal>REGS/out_b[4]</Signal>
+                <Signal>REGS/out_b[3]</Signal>
+                <Signal>REGS/out_b[2]</Signal>
+                <Signal>REGS/out_b[1]</Signal>
+                <Signal>REGS/out_b[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="alu_out[7:0]">
+                <Signal>alu_out[7]</Signal>
+                <Signal>alu_out[6]</Signal>
+                <Signal>alu_out[5]</Signal>
+                <Signal>alu_out[4]</Signal>
+                <Signal>alu_out[3]</Signal>
+                <Signal>alu_out[2]</Signal>
+                <Signal>alu_out[1]</Signal>
+                <Signal>alu_out[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">ALU/skip</Signal>
+            <Bus capture_enable="true" name="skip_data[7:0]">
+                <Signal>skip_data[7]</Signal>
+                <Signal>skip_data[6]</Signal>
+                <Signal>skip_data[5]</Signal>
+                <Signal>skip_data[4]</Signal>
+                <Signal>skip_data[3]</Signal>
+                <Signal>skip_data[2]</Signal>
+                <Signal>skip_data[1]</Signal>
+                <Signal>skip_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="Program/skip_data[7:0]">
+                <Signal>Program/skip_data[7]</Signal>
+                <Signal>Program/skip_data[6]</Signal>
+                <Signal>Program/skip_data[5]</Signal>
+                <Signal>Program/skip_data[4]</Signal>
+                <Signal>Program/skip_data[3]</Signal>
+                <Signal>Program/skip_data[2]</Signal>
+                <Signal>Program/skip_data[1]</Signal>
+                <Signal>Program/skip_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/skip_data[7:0]">
+                <Signal>REGS/skip_data[7]</Signal>
+                <Signal>REGS/skip_data[6]</Signal>
+                <Signal>REGS/skip_data[5]</Signal>
+                <Signal>REGS/skip_data[4]</Signal>
+                <Signal>REGS/skip_data[3]</Signal>
+                <Signal>REGS/skip_data[2]</Signal>
+                <Signal>REGS/skip_data[1]</Signal>
+                <Signal>REGS/skip_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/delay_data[15:0]">
+                <Signal>REGS/delay_data[15]</Signal>
+                <Signal>REGS/delay_data[14]</Signal>
+                <Signal>REGS/delay_data[13]</Signal>
+                <Signal>REGS/delay_data[12]</Signal>
+                <Signal>REGS/delay_data[11]</Signal>
+                <Signal>REGS/delay_data[10]</Signal>
+                <Signal>REGS/delay_data[9]</Signal>
+                <Signal>REGS/delay_data[8]</Signal>
+                <Signal>REGS/delay_data[7]</Signal>
+                <Signal>REGS/delay_data[6]</Signal>
+                <Signal>REGS/delay_data[5]</Signal>
+                <Signal>REGS/delay_data[4]</Signal>
+                <Signal>REGS/delay_data[3]</Signal>
+                <Signal>REGS/delay_data[2]</Signal>
+                <Signal>REGS/delay_data[1]</Signal>
+                <Signal>REGS/delay_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="ALU/indelay_data[15:0]">
+                <Signal>ALU/indelay_data[15]</Signal>
+                <Signal>ALU/indelay_data[14]</Signal>
+                <Signal>ALU/indelay_data[13]</Signal>
+                <Signal>ALU/indelay_data[12]</Signal>
+                <Signal>ALU/indelay_data[11]</Signal>
+                <Signal>ALU/indelay_data[10]</Signal>
+                <Signal>ALU/indelay_data[9]</Signal>
+                <Signal>ALU/indelay_data[8]</Signal>
+                <Signal>ALU/indelay_data[7]</Signal>
+                <Signal>ALU/indelay_data[6]</Signal>
+                <Signal>ALU/indelay_data[5]</Signal>
+                <Signal>ALU/indelay_data[4]</Signal>
+                <Signal>ALU/indelay_data[3]</Signal>
+                <Signal>ALU/indelay_data[2]</Signal>
+                <Signal>ALU/indelay_data[1]</Signal>
+                <Signal>ALU/indelay_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="ALU/delay_data[15:0]">
+                <Signal>ALU/delay_data[15]</Signal>
+                <Signal>ALU/delay_data[14]</Signal>
+                <Signal>ALU/delay_data[13]</Signal>
+                <Signal>ALU/delay_data[12]</Signal>
+                <Signal>ALU/delay_data[11]</Signal>
+                <Signal>ALU/delay_data[10]</Signal>
+                <Signal>ALU/delay_data[9]</Signal>
+                <Signal>ALU/delay_data[8]</Signal>
+                <Signal>ALU/delay_data[7]</Signal>
+                <Signal>ALU/delay_data[6]</Signal>
+                <Signal>ALU/delay_data[5]</Signal>
+                <Signal>ALU/delay_data[4]</Signal>
+                <Signal>ALU/delay_data[3]</Signal>
+                <Signal>ALU/delay_data[2]</Signal>
+                <Signal>ALU/delay_data[1]</Signal>
+                <Signal>ALU/delay_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">delay</Signal>
+            <Signal capture_enable="true">REGS/delay</Signal>
+            <Signal capture_enable="true">ALU/delay</Signal>
+            <Bus capture_enable="true" name="io_outn[7:0]">
+                <Signal>io_outn[7]</Signal>
+                <Signal>io_outn[6]</Signal>
+                <Signal>io_outn[5]</Signal>
+                <Signal>io_outn[4]</Signal>
+                <Signal>io_outn[3]</Signal>
+                <Signal>io_outn[2]</Signal>
+                <Signal>io_outn[1]</Signal>
+                <Signal>io_outn[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="REGS/delay_reg[23:0]">
+                <Signal>REGS/delay_reg[23]</Signal>
+                <Signal>REGS/delay_reg[22]</Signal>
+                <Signal>REGS/delay_reg[21]</Signal>
+                <Signal>REGS/delay_reg[20]</Signal>
+                <Signal>REGS/delay_reg[19]</Signal>
+                <Signal>REGS/delay_reg[18]</Signal>
+                <Signal>REGS/delay_reg[17]</Signal>
+                <Signal>REGS/delay_reg[16]</Signal>
+                <Signal>REGS/delay_reg[15]</Signal>
+                <Signal>REGS/delay_reg[14]</Signal>
+                <Signal>REGS/delay_reg[13]</Signal>
+                <Signal>REGS/delay_reg[12]</Signal>
+                <Signal>REGS/delay_reg[11]</Signal>
+                <Signal>REGS/delay_reg[10]</Signal>
+                <Signal>REGS/delay_reg[9]</Signal>
+                <Signal>REGS/delay_reg[8]</Signal>
+                <Signal>REGS/delay_reg[7]</Signal>
+                <Signal>REGS/delay_reg[6]</Signal>
+                <Signal>REGS/delay_reg[5]</Signal>
+                <Signal>REGS/delay_reg[4]</Signal>
+                <Signal>REGS/delay_reg[3]</Signal>
+                <Signal>REGS/delay_reg[2]</Signal>
+                <Signal>REGS/delay_reg[1]</Signal>
+                <Signal>REGS/delay_reg[0]</Signal>
+            </Bus>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>clk</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="Program/addr[7:0]">
+                        <Signal>Program/addr[7]</Signal>
+                        <Signal>Program/addr[6]</Signal>
+                        <Signal>Program/addr[5]</Signal>
+                        <Signal>Program/addr[4]</Signal>
+                        <Signal>Program/addr[3]</Signal>
+                        <Signal>Program/addr[2]</Signal>
+                        <Signal>Program/addr[1]</Signal>
+                        <Signal>Program/addr[0]</Signal>
+                    </Bus>
+                    <Bus restorename="dir[7:0]">
+                        <Signal>dir[7]</Signal>
+                        <Signal>dir[6]</Signal>
+                        <Signal>dir[5]</Signal>
+                        <Signal>dir[4]</Signal>
+                        <Signal>dir[3]</Signal>
+                        <Signal>dir[2]</Signal>
+                        <Signal>dir[1]</Signal>
+                        <Signal>dir[0]</Signal>
+                    </Bus>
+                    <Bus restorename="data_a[7:0]">
+                        <Signal>data_a[7]</Signal>
+                        <Signal>data_a[6]</Signal>
+                        <Signal>data_a[5]</Signal>
+                        <Signal>data_a[4]</Signal>
+                        <Signal>data_a[3]</Signal>
+                        <Signal>data_a[2]</Signal>
+                        <Signal>data_a[1]</Signal>
+                        <Signal>data_a[0]</Signal>
+                    </Bus>
+                    <Bus restorename="data_b[7:0]">
+                        <Signal>data_b[7]</Signal>
+                        <Signal>data_b[6]</Signal>
+                        <Signal>data_b[5]</Signal>
+                        <Signal>data_b[4]</Signal>
+                        <Signal>data_b[3]</Signal>
+                        <Signal>data_b[2]</Signal>
+                        <Signal>data_b[1]</Signal>
+                        <Signal>data_b[0]</Signal>
+                    </Bus>
+                    <Bus restorename="address[7:0]">
+                        <Signal>address[7]</Signal>
+                        <Signal>address[6]</Signal>
+                        <Signal>address[5]</Signal>
+                        <Signal>address[4]</Signal>
+                        <Signal>address[3]</Signal>
+                        <Signal>address[2]</Signal>
+                        <Signal>address[1]</Signal>
+                        <Signal>address[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2">
+                <SignalList>
+                    <Bus restorename="Program/skip_data[7:0]">
+                        <Signal>Program/skip_data[7]</Signal>
+                        <Signal>Program/skip_data[6]</Signal>
+                        <Signal>Program/skip_data[5]</Signal>
+                        <Signal>Program/skip_data[4]</Signal>
+                        <Signal>Program/skip_data[3]</Signal>
+                        <Signal>Program/skip_data[2]</Signal>
+                        <Signal>Program/skip_data[1]</Signal>
+                        <Signal>Program/skip_data[0]</Signal>
+                    </Bus>
+                    <Signal>skip</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="3">
+                <SignalList>
+                    <Bus restorename="REGS/regfile[5][7:0]">
+                        <Signal>REGS/regfile[5][7]</Signal>
+                        <Signal>REGS/regfile[5][6]</Signal>
+                        <Signal>REGS/regfile[5][5]</Signal>
+                        <Signal>REGS/regfile[5][4]</Signal>
+                        <Signal>REGS/regfile[5][3]</Signal>
+                        <Signal>REGS/regfile[5][2]</Signal>
+                        <Signal>REGS/regfile[5][1]</Signal>
+                        <Signal>REGS/regfile[5][0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/regfile[4][7:0]">
+                        <Signal>REGS/regfile[4][7]</Signal>
+                        <Signal>REGS/regfile[4][6]</Signal>
+                        <Signal>REGS/regfile[4][5]</Signal>
+                        <Signal>REGS/regfile[4][4]</Signal>
+                        <Signal>REGS/regfile[4][3]</Signal>
+                        <Signal>REGS/regfile[4][2]</Signal>
+                        <Signal>REGS/regfile[4][1]</Signal>
+                        <Signal>REGS/regfile[4][0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/regfile[3][7:0]">
+                        <Signal>REGS/regfile[3][7]</Signal>
+                        <Signal>REGS/regfile[3][6]</Signal>
+                        <Signal>REGS/regfile[3][5]</Signal>
+                        <Signal>REGS/regfile[3][4]</Signal>
+                        <Signal>REGS/regfile[3][3]</Signal>
+                        <Signal>REGS/regfile[3][2]</Signal>
+                        <Signal>REGS/regfile[3][1]</Signal>
+                        <Signal>REGS/regfile[3][0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/regfile[2][7:0]">
+                        <Signal>REGS/regfile[2][7]</Signal>
+                        <Signal>REGS/regfile[2][6]</Signal>
+                        <Signal>REGS/regfile[2][5]</Signal>
+                        <Signal>REGS/regfile[2][4]</Signal>
+                        <Signal>REGS/regfile[2][3]</Signal>
+                        <Signal>REGS/regfile[2][2]</Signal>
+                        <Signal>REGS/regfile[2][1]</Signal>
+                        <Signal>REGS/regfile[2][0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/regfile[1][7:0]">
+                        <Signal>REGS/regfile[1][7]</Signal>
+                        <Signal>REGS/regfile[1][6]</Signal>
+                        <Signal>REGS/regfile[1][5]</Signal>
+                        <Signal>REGS/regfile[1][4]</Signal>
+                        <Signal>REGS/regfile[1][3]</Signal>
+                        <Signal>REGS/regfile[1][2]</Signal>
+                        <Signal>REGS/regfile[1][1]</Signal>
+                        <Signal>REGS/regfile[1][0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/regfile[0][7:0]">
+                        <Signal>REGS/regfile[0][7]</Signal>
+                        <Signal>REGS/regfile[0][6]</Signal>
+                        <Signal>REGS/regfile[0][5]</Signal>
+                        <Signal>REGS/regfile[0][4]</Signal>
+                        <Signal>REGS/regfile[0][3]</Signal>
+                        <Signal>REGS/regfile[0][2]</Signal>
+                        <Signal>REGS/regfile[0][1]</Signal>
+                        <Signal>REGS/regfile[0][0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="4">
+                <SignalList>
+                    <Bus restorename="io_in[7:0]">
+                        <Signal>io_in[7]</Signal>
+                        <Signal>io_in[6]</Signal>
+                        <Signal>io_in[5]</Signal>
+                        <Signal>io_in[4]</Signal>
+                        <Signal>io_in[3]</Signal>
+                        <Signal>io_in[2]</Signal>
+                        <Signal>io_in[1]</Signal>
+                        <Signal>io_in[0]</Signal>
+                    </Bus>
+                    <Bus restorename="io_out[7:0]">
+                        <Signal>io_out[7]</Signal>
+                        <Signal>io_out[6]</Signal>
+                        <Signal>io_out[5]</Signal>
+                        <Signal>io_out[4]</Signal>
+                        <Signal>io_out[3]</Signal>
+                        <Signal>io_out[2]</Signal>
+                        <Signal>io_out[1]</Signal>
+                        <Signal>io_out[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="5">
+                <SignalList>
+                    <Bus restorename="ALU/data_a[7:0]">
+                        <Signal>ALU/data_a[7]</Signal>
+                        <Signal>ALU/data_a[6]</Signal>
+                        <Signal>ALU/data_a[5]</Signal>
+                        <Signal>ALU/data_a[4]</Signal>
+                        <Signal>ALU/data_a[3]</Signal>
+                        <Signal>ALU/data_a[2]</Signal>
+                        <Signal>ALU/data_a[1]</Signal>
+                        <Signal>ALU/data_a[0]</Signal>
+                    </Bus>
+                    <Bus restorename="ALU/data_b[7:0]">
+                        <Signal>ALU/data_b[7]</Signal>
+                        <Signal>ALU/data_b[6]</Signal>
+                        <Signal>ALU/data_b[5]</Signal>
+                        <Signal>ALU/data_b[4]</Signal>
+                        <Signal>ALU/data_b[3]</Signal>
+                        <Signal>ALU/data_b[2]</Signal>
+                        <Signal>ALU/data_b[1]</Signal>
+                        <Signal>ALU/data_b[0]</Signal>
+                    </Bus>
+                    <Bus restorename="ALU/out[7:0]">
+                        <Signal>ALU/out[7]</Signal>
+                        <Signal>ALU/out[6]</Signal>
+                        <Signal>ALU/out[5]</Signal>
+                        <Signal>ALU/out[4]</Signal>
+                        <Signal>ALU/out[3]</Signal>
+                        <Signal>ALU/out[2]</Signal>
+                        <Signal>ALU/out[1]</Signal>
+                        <Signal>ALU/out[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="6">
+                <SignalList>
+                    <Bus restorename="REGS/data_a[7:0]">
+                        <Signal>REGS/data_a[7]</Signal>
+                        <Signal>REGS/data_a[6]</Signal>
+                        <Signal>REGS/data_a[5]</Signal>
+                        <Signal>REGS/data_a[4]</Signal>
+                        <Signal>REGS/data_a[3]</Signal>
+                        <Signal>REGS/data_a[2]</Signal>
+                        <Signal>REGS/data_a[1]</Signal>
+                        <Signal>REGS/data_a[0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/data_b[7:0]">
+                        <Signal>REGS/data_b[7]</Signal>
+                        <Signal>REGS/data_b[6]</Signal>
+                        <Signal>REGS/data_b[5]</Signal>
+                        <Signal>REGS/data_b[4]</Signal>
+                        <Signal>REGS/data_b[3]</Signal>
+                        <Signal>REGS/data_b[2]</Signal>
+                        <Signal>REGS/data_b[1]</Signal>
+                        <Signal>REGS/data_b[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="7">
+                <SignalList>
+                    <Signal>skip</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="8">
+                <SignalList>
+                    <Bus restorename="skip_data[7:0]">
+                        <Signal>skip_data[7]</Signal>
+                        <Signal>skip_data[6]</Signal>
+                        <Signal>skip_data[5]</Signal>
+                        <Signal>skip_data[4]</Signal>
+                        <Signal>skip_data[3]</Signal>
+                        <Signal>skip_data[2]</Signal>
+                        <Signal>skip_data[1]</Signal>
+                        <Signal>skip_data[0]</Signal>
+                    </Bus>
+                    <Bus restorename="Program/skip_data[7:0]">
+                        <Signal>Program/skip_data[7]</Signal>
+                        <Signal>Program/skip_data[6]</Signal>
+                        <Signal>Program/skip_data[5]</Signal>
+                        <Signal>Program/skip_data[4]</Signal>
+                        <Signal>Program/skip_data[3]</Signal>
+                        <Signal>Program/skip_data[2]</Signal>
+                        <Signal>Program/skip_data[1]</Signal>
+                        <Signal>Program/skip_data[0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/skip_data[7:0]">
+                        <Signal>REGS/skip_data[7]</Signal>
+                        <Signal>REGS/skip_data[6]</Signal>
+                        <Signal>REGS/skip_data[5]</Signal>
+                        <Signal>REGS/skip_data[4]</Signal>
+                        <Signal>REGS/skip_data[3]</Signal>
+                        <Signal>REGS/skip_data[2]</Signal>
+                        <Signal>REGS/skip_data[1]</Signal>
+                        <Signal>REGS/skip_data[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="9">
+                <SignalList>
+                    <Bus restorename="ALU/indelay_data[15:0]">
+                        <Signal>ALU/indelay_data[15]</Signal>
+                        <Signal>ALU/indelay_data[14]</Signal>
+                        <Signal>ALU/indelay_data[13]</Signal>
+                        <Signal>ALU/indelay_data[12]</Signal>
+                        <Signal>ALU/indelay_data[11]</Signal>
+                        <Signal>ALU/indelay_data[10]</Signal>
+                        <Signal>ALU/indelay_data[9]</Signal>
+                        <Signal>ALU/indelay_data[8]</Signal>
+                        <Signal>ALU/indelay_data[7]</Signal>
+                        <Signal>ALU/indelay_data[6]</Signal>
+                        <Signal>ALU/indelay_data[5]</Signal>
+                        <Signal>ALU/indelay_data[4]</Signal>
+                        <Signal>ALU/indelay_data[3]</Signal>
+                        <Signal>ALU/indelay_data[2]</Signal>
+                        <Signal>ALU/indelay_data[1]</Signal>
+                        <Signal>ALU/indelay_data[0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/delay_reg[23:0]">
+                        <Signal>REGS/delay_reg[23]</Signal>
+                        <Signal>REGS/delay_reg[22]</Signal>
+                        <Signal>REGS/delay_reg[21]</Signal>
+                        <Signal>REGS/delay_reg[20]</Signal>
+                        <Signal>REGS/delay_reg[19]</Signal>
+                        <Signal>REGS/delay_reg[18]</Signal>
+                        <Signal>REGS/delay_reg[17]</Signal>
+                        <Signal>REGS/delay_reg[16]</Signal>
+                        <Signal>REGS/delay_reg[15]</Signal>
+                        <Signal>REGS/delay_reg[14]</Signal>
+                        <Signal>REGS/delay_reg[13]</Signal>
+                        <Signal>REGS/delay_reg[12]</Signal>
+                        <Signal>REGS/delay_reg[11]</Signal>
+                        <Signal>REGS/delay_reg[10]</Signal>
+                        <Signal>REGS/delay_reg[9]</Signal>
+                        <Signal>REGS/delay_reg[8]</Signal>
+                        <Signal>REGS/delay_reg[7]</Signal>
+                        <Signal>REGS/delay_reg[6]</Signal>
+                        <Signal>REGS/delay_reg[5]</Signal>
+                        <Signal>REGS/delay_reg[4]</Signal>
+                        <Signal>REGS/delay_reg[3]</Signal>
+                        <Signal>REGS/delay_reg[2]</Signal>
+                        <Signal>REGS/delay_reg[1]</Signal>
+                        <Signal>REGS/delay_reg[0]</Signal>
+                    </Bus>
+                    <Bus restorename="REGS/delay_data[23:0]">
+                        <Signal>REGS/delay_data[23]</Signal>
+                        <Signal>REGS/delay_data[22]</Signal>
+                        <Signal>REGS/delay_data[21]</Signal>
+                        <Signal>REGS/delay_data[20]</Signal>
+                        <Signal>REGS/delay_data[19]</Signal>
+                        <Signal>REGS/delay_data[18]</Signal>
+                        <Signal>REGS/delay_data[17]</Signal>
+                        <Signal>REGS/delay_data[16]</Signal>
+                        <Signal>REGS/delay_data[15]</Signal>
+                        <Signal>REGS/delay_data[14]</Signal>
+                        <Signal>REGS/delay_data[13]</Signal>
+                        <Signal>REGS/delay_data[12]</Signal>
+                        <Signal>REGS/delay_data[11]</Signal>
+                        <Signal>REGS/delay_data[10]</Signal>
+                        <Signal>REGS/delay_data[9]</Signal>
+                        <Signal>REGS/delay_data[8]</Signal>
+                        <Signal>REGS/delay_data[7]</Signal>
+                        <Signal>REGS/delay_data[6]</Signal>
+                        <Signal>REGS/delay_data[5]</Signal>
+                        <Signal>REGS/delay_data[4]</Signal>
+                        <Signal>REGS/delay_data[3]</Signal>
+                        <Signal>REGS/delay_data[2]</Signal>
+                        <Signal>REGS/delay_data[1]</Signal>
+                        <Signal>REGS/delay_data[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="10">
+                <SignalList>
+                    <Signal>delay</Signal>
+                    <Signal>REGS/delay</Signal>
+                    <Signal>ALU/delay</Signal>
+                    <Bus restorename="io_outn[7:0]">
+                        <Signal>io_outn[7]</Signal>
+                        <Signal>io_outn[6]</Signal>
+                        <Signal>io_outn[5]</Signal>
+                        <Signal>io_outn[4]</Signal>
+                        <Signal>io_outn[3]</Signal>
+                        <Signal>io_outn[2]</Signal>
+                        <Signal>io_outn[1]</Signal>
+                        <Signal>io_outn[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0000000000000000000000000000000000000000" value1="0000000000000000000000000000000000000000" trigger="1"/>
+            <MatchUnit index="2" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000000000" value1="000000000" trigger="2"/>
+            <MatchUnit index="3" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000000000000000000000000000000000000000000000000" value1="000000000000000000000000000000000000000000000000" trigger="3"/>
+            <MatchUnit index="4" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0000000000000000" value1="0000000000000000" trigger="4"/>
+            <MatchUnit index="5" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000000000000000000000000" value1="000000000000000000000000" trigger="5"/>
+            <MatchUnit index="6" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0000000000000000" value1="0000000000000000" trigger="6"/>
+            <MatchUnit index="7" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="0" value1="0" trigger="7"/>
+            <MatchUnit index="8" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000000000000000000000000" value1="000000000000000000000000" trigger="8"/>
+            <MatchUnit index="9" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0000000000000000000000000000000000000000000000000000000000000000" value1="0000000000000000000000000000000000000000000000000000000000000000" trigger="9"/>
+            <MatchUnit index="10" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000" value1="00000000000" trigger="10"/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="000000000000000000000000000000000000000000000000" value1="000000000000000000000000000000000000000000000000" trigger="11"/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1001100110000110</GAO_ID>
+</GAO_CONFIG>

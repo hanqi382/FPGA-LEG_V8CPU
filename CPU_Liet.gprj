@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138B" pn="GW5AST-LV138PG484AC1/I0">gw5ast138b-011</Device>
+    <FileList>
+        <File path="src/ALU.v" type="file.verilog" enable="1"/>
+        <File path="src/LEG.v" type="file.verilog" enable="1"/>
+        <File path="src/ProgramCounter.v" type="file.verilog" enable="1"/>
+        <File path="src/REGS.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/CPU_Liet.cst" type="file.cst" enable="1"/>
+        <File path="src/CPU_Liet.rao" type="file.gao" enable="1"/>
+        <File path="src/Program.mi" type="file.other" enable="1"/>
+        <File path="src/promram2.mi" type="file.other" enable="1"/>
+    </FileList>
+</Project>
