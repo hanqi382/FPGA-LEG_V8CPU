@@ -1,0 +1,211 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\src\ALU.v'
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\src\LEG.v'
+WARN  (EX2830) : Data object 'delay' is already declared("F:\project\FPGA\CPU_Liet DELAY\src\LEG.v":22)
+Previous declaration of 'delay' is from here("F:\project\FPGA\CPU_Liet DELAY\src\LEG.v":8)
+WARN  (EX3671) : Second declaration of 'delay' is ignored("F:\project\FPGA\CPU_Liet DELAY\src\LEG.v":22)
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v'
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\src\REGS.v'
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\src\gowin_prom\gowin_prom.v'
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v'
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'
+Analyzing included file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_init.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":1256)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":1256)
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'
+Analyzing included file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_top_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_expression.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_parameter.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_0\gw_ao_init.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v'
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_top_define.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v":396)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v":396)
+Analyzing included file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\ao_control\gw_con_parameter.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v":396)
+Back to file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v":396)
+Analyzing Verilog file 'F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\gw_jtag.v'
+Analyzing Verilog file 'F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\gw_gao_top.v'
+Compiling module 'LEG'("F:\project\FPGA\CPU_Liet DELAY\src\LEG.v":1)
+Compiling module 'Program'("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":1)
+Compiling module 'Gowin_pROM'("F:\project\FPGA\CPU_Liet DELAY\src\gowin_prom\gowin_prom.v":10)
+WARN  (EX3779) : 'date' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":31)
+WARN  (EX3779) : 'date' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":32)
+WARN  (EX3779) : 'date' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":33)
+WARN  (EX3779) : 'date' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":34)
+WARN  (EX2213) : Found if-condition inside asynchronous set or reset block, synthesis - simulation differences may occur("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":38)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":43)
+Compiling module 'REGS'("F:\project\FPGA\CPU_Liet DELAY\src\REGS.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("F:\project\FPGA\CPU_Liet DELAY\src\REGS.v":69)
+Compiling module 'ALU'("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":1)
+WARN  (EX2420) : Latch inferred for net 'out[7]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+Compiling module 'gw_gao'("F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\RTL_GAO\gw_gao_top.v":1)
+Compiling module 'GW_JTAG'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\gw_jtag.v":1)
+Compiling module '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_CON\gw_con_top_138.v":396)
+Compiling module '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_top.v":3042)
+Compiling module '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":1256)
+Extracting RAM for identifier '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_mem_ctrl.v":1256)
+Compiling module '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_crc32.v":74)
+Compiling module '**'("F:\IDE\Gowin_S\Gowin\Gowin_V1.9.11.02_x64\IDE\data\ipcores\GAO\GW_AO_0\gw_ao_match.v":374)
+Trying to combine GAO to RTL design
+NOTE  (EX0101) : Current top module is "LEG"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'out[6]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[23]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[22]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[21]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[20]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[19]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[18]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[17]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[16]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[15]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[14]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[13]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[12]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[11]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[10]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[9]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[8]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[7]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[6]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay_data[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'delay';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'skip';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+WARN  (DI0003) : Latch inferred for net 'out[7]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("F:\project\FPGA\CPU_Liet DELAY\src\ALU.v":68)
+[75%] Tech-Mapping Phase 2 completed
+WARN  (AG0100) : Find logical loop signal : "n73"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n100"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n73"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n74"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n106"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n74"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n75"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n110"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n75"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n76"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n114"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n76"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n77"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n118"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n77"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n78"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n122"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n78"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n79"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n126"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n79"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "n80"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0100) : Find logical loop signal : "n130"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "n80"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":40)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[7]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[6]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[5]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[4]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[3]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[2]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[1]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0100) : Find logical loop signal : "addr[0]"("F:\project\FPGA\CPU_Liet DELAY\src\ProgramCounter.v":45)
+WARN  (AG0101) : The netlist is not one directed acyclic graph
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\CPU_Liet.vg" completed
+[100%] Generate report file "F:\project\FPGA\CPU_Liet DELAY\impl\gwsynthesis\CPU_Liet_syn.rpt.html" completed
+GowinSynthesis finish
